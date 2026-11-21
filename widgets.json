@@ -33,5 +33,54 @@
       "确认 Game Off 是否报名（12 月 2 日截止）"
     ],
     "updated": "2026-11-21T15:30:00+08:00"
+  },
+  {
+    "id": "news",
+    "title": "热点资讯",
+    "updated": "2026-11-21T17:05:00+08:00",
+    "items": [
+      {
+        "title": "Anthropic数学家称借Claude证明黎曼猜想",
+        "summary": "阿尔珀格称在Claude协助下不到6周完成（广义）黎曼猜想证明并公开形式化代码；同日另有一份纯人工的940页证明草稿。两者均待数学界验证。",
+        "source": "科技日报",
+        "url": "https://www.stdaily.com/web/gdxw/2026-11/21/content_616914.html"
+      },
+      {
+        "title": "AI辅助证明“无外力”纳维-斯托克斯方程爆破",
+        "summary": "纽约大学Buckmaster与Anthropic的Alpöge发布AI辅助证明并附Lean形式化，补上OpenAI 9月结果被诟病的“外力”漏洞；关键数值证书尚未公开。",
+        "source": "Scientific American",
+        "url": "https://www.scientificamerican.com/article/ai-just-solved-the-real-navier-stokes-problem/"
+      },
+      {
+        "title": "Thinking Machines开源笔记本可跑的Inkling 2 Mini",
+        "summary": "循环Transformer架构，中间层每个token跑三遍，用更少token完成推理；Apache 2.0开源，约20GB内存可本地运行，主打智能体编程。",
+        "source": "Thinking Machines Lab",
+        "url": "https://thinkingmachines.ai/news/inkling-2-mini"
+      },
+      {
+        "title": "国产开源大模型下载量破100亿次",
+        "summary": "Kimi K3.1 Pro公开完整权重、腾讯混元发布Hy4；OpenRouter上中国模型周调用量连续29周全球第一，日均词元调用量超500万亿。",
+        "source": "科技日报（转人民日报）",
+        "url": "https://www.stdaily.com/web/gdxw/2026-11/21/content_616904.html"
+      },
+      {
+        "title": "华尔街重估AI：纳指一日跌5.28%",
+        "summary": "纳指周五大跌抹去全年涨幅，七大科技股一个半月蒸发逾4万亿美元；投资者开始质疑巨额AI投入与债务能否换来利润。",
+        "source": "France 24 / 法新社",
+        "url": "https://www.france24.com/en/live-news/20261121-has-ai-s-honeymoon-ended-on-wall-street"
+      },
+      {
+        "title": "Unity CLI 1.0正式版：让AI智能体操作编辑器",
+        "summary": "Unity CLI与Pipeline包结束测试，一条unity setup即可给Claude Code、Codex等装官方插件；约98%的调用来自智能体与自动化。",
+        "source": "Unity 官方博客",
+        "url": "https://unity.com/the-unity-cli-1.0-is-here"
+      },
+      {
+        "title": "Unity新条款：每台电脑最多同开3个编辑器",
+        "summary": "11月16日修订的条款限制单席位同机并发3个Editor实例，并把AI智能体与无头运行纳入Build Server授权，开发者不满。",
+        "source": "Oyun Günlüğü",
+        "url": "https://www.oyungunlugu.com/en/news/new-unity-terms-cap-the-editor-at-3-instances-per-machine"
+      }
+    ]
   }
 ]
