@@ -37,49 +37,49 @@
   {
     "id": "news",
     "title": "热点资讯",
-    "updated": "2026-11-21T17:05:00+08:00",
+    "updated": "2026-11-22T08:01:04+08:00",
     "items": [
       {
-        "title": "Anthropic数学家称借Claude证明黎曼猜想",
-        "summary": "阿尔珀格称在Claude协助下不到6周完成（广义）黎曼猜想证明并公开形式化代码；同日另有一份纯人工的940页证明草稿。两者均待数学界验证。",
-        "source": "科技日报",
-        "url": "https://www.stdaily.com/web/gdxw/2026-11/21/content_616914.html"
+        "title": "Anthropic上市募资935亿美元创纪录",
+        "summary": "Anthropic以每股83美元完成IPO并全额行使超额配售，募资约935亿美元，连同私募总额约1195亿美元；股票11月19日在纳斯达克以ANT代码开始交易。",
+        "source": "Anthropic 官方",
+        "url": "https://www.anthropic.com/news/ipo-close"
       },
       {
-        "title": "AI辅助证明“无外力”纳维-斯托克斯方程爆破",
-        "summary": "纽约大学Buckmaster与Anthropic的Alpöge发布AI辅助证明并附Lean形式化，补上OpenAI 9月结果被诟病的“外力”漏洞；关键数值证书尚未公开。",
-        "source": "Scientific American",
-        "url": "https://www.scientificamerican.com/article/ai-just-solved-the-real-navier-stokes-problem/"
+        "title": "谷歌发布Gemini 4 Neon中端旗舰",
+        "summary": "Neon主打长程智能体编程与知识工作，Artificial Analysis智能指数61分排总榜第三；定价每百万输入/输出token 3/15美元，支持100万上下文。",
+        "source": "Google 官方博客",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
       },
       {
-        "title": "Thinking Machines开源笔记本可跑的Inkling 2 Mini",
-        "summary": "循环Transformer架构，中间层每个token跑三遍，用更少token完成推理；Apache 2.0开源，约20GB内存可本地运行，主打智能体编程。",
-        "source": "Thinking Machines Lab",
-        "url": "https://thinkingmachines.ai/news/inkling-2-mini"
+        "title": "OpenAI推药物化学基准MedChemBench",
+        "summary": "99道题取自117篇论文与专利，GPT-6.2 Astra拿到84.5%分数；模型擅长还原分子结构，但选化合物和预测数值仍弱，OpenAI称不代表能发现新药。",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/introducing-medchembench"
       },
       {
-        "title": "国产开源大模型下载量破100亿次",
-        "summary": "Kimi K3.1 Pro公开完整权重、腾讯混元发布Hy4；OpenRouter上中国模型周调用量连续29周全球第一，日均词元调用量超500万亿。",
-        "source": "科技日报（转人民日报）",
-        "url": "https://www.stdaily.com/web/gdxw/2026-11/21/content_616904.html"
+        "title": "英伟达开源连续扩散语言模型Sigma",
+        "summary": "Nemotron-Labs-Sigma含3B/8B共14个checkpoint，在连续嵌入空间去噪生成文本；自推测解码版平均比自回归快3.46倍，数据均为英伟达自测。",
+        "source": "HIMIAO视界",
+        "url": "https://himiao.ai/news/2026-11-20-nvidia-nemotron-sigma"
       },
       {
-        "title": "华尔街重估AI：纳指一日跌5.28%",
-        "summary": "纳指周五大跌抹去全年涨幅，七大科技股一个半月蒸发逾4万亿美元；投资者开始质疑巨额AI投入与债务能否换来利润。",
-        "source": "France 24 / 法新社",
-        "url": "https://www.france24.com/en/live-news/20261121-has-ai-s-honeymoon-ended-on-wall-street"
-      },
-      {
-        "title": "Unity CLI 1.0正式版：让AI智能体操作编辑器",
-        "summary": "Unity CLI与Pipeline包结束测试，一条unity setup即可给Claude Code、Codex等装官方插件；约98%的调用来自智能体与自动化。",
+        "title": "Unite Tokyo：Unity 7路线图公布",
+        "summary": "ECS for All让每个GameObject同时是Entity；Unity 6.7 LTS带来实验性Neural纹理压缩（显存降近30%）与无需烘焙的Surface Cache GI，新后端UGK光追下GPU性能提升超62%。",
         "source": "Unity 官方博客",
-        "url": "https://unity.com/the-unity-cli-1.0-is-here"
+        "url": "https://unity.com/blog/unite-tokyo-2026-keynote-recap"
       },
       {
-        "title": "Unity新条款：每台电脑最多同开3个编辑器",
-        "summary": "11月16日修订的条款限制单席位同机并发3个Editor实例，并把AI智能体与无头运行纳入Build Server授权，开发者不满。",
-        "source": "Oyun Günlüğü",
-        "url": "https://www.oyungunlugu.com/en/news/new-unity-terms-cap-the-editor-at-3-instances-per-machine"
+        "title": "Unity设立Fellowship，每队给5万美元",
+        "summary": "每年资助10支临近上线的独立团队，提供5万美元现金与专家支持，不分成、不回收、IP归团队；同场宣布Synty Studios加入Unity。",
+        "source": "Unity 官方博客",
+        "url": "https://unity.com/blog/unite-tokyo-2026-keynote-recap"
+      },
+      {
+        "title": "《恐鬼症》11月24日迁移至Unity 6",
+        "summary": "Resonance免费更新将把游戏引擎升级到Unity 6，官方预期降低CPU/GPU/显存占用并修复内存泄漏，但性能提升尚待上线后验证。",
+        "source": "Tech Times",
+        "url": "https://www.techtimes.com/articles/331241/20261121/phasmophobia-resonance-update-moves-game-unity-6-november-24-performance-gains-unproven.htm"
       }
     ]
   }
