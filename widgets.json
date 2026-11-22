@@ -3,7 +3,7 @@
     "id": "hark-unity",
     "title": "Unity · BFS 专题",
     "value": "2/3 天",
-    "sub": "填充、连通、最短步数",
+    "sub": "多源、状态、反向 BFS",
     "items": [
       "1091 最短通路",
       "752 转盘锁",
@@ -12,7 +12,7 @@
       "417 双海洋水流"
     ],
     "link": "https://leetcode.cn/problems/pacific-atlantic-water-flow/",
-    "updated": "2026-11-23T00:24:18+08:00"
+    "updated": "2026-11-23T00:24:22+08:00"
   },
   {
     "id": "test",
