@@ -37,49 +37,49 @@
   {
     "id": "news",
     "title": "热点资讯",
-    "updated": "2026-11-22T08:01:04+08:00",
+    "updated": "2026-11-23T08:00:38+08:00",
     "items": [
       {
-        "title": "Anthropic上市募资935亿美元创纪录",
-        "summary": "Anthropic以每股83美元完成IPO并全额行使超额配售，募资约935亿美元，连同私募总额约1195亿美元；股票11月19日在纳斯达克以ANT代码开始交易。",
-        "source": "Anthropic 官方",
-        "url": "https://www.anthropic.com/news/ipo-close"
+        "title": "英伟达发布车载推理模型Alpamayo 2 Edge",
+        "summary": "2B 级视觉-语言-动作模型，把六路摄像头视频转为 6.4 秒轨迹规划并在车端解释，面向 DRIVE AGX Thor，端到端延迟 160–190 毫秒。",
+        "source": "AI Gazz（引 MarkTechPost）",
+        "url": "https://aigazz.com/all"
       },
       {
-        "title": "谷歌发布Gemini 4 Neon中端旗舰",
-        "summary": "Neon主打长程智能体编程与知识工作，Artificial Analysis智能指数61分排总榜第三；定价每百万输入/输出token 3/15美元，支持100万上下文。",
-        "source": "Google 官方博客",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+        "title": "腾讯Hy4发布前经独立机构安全评估",
+        "summary": "腾讯联合国际 AI 安全组织评估开源模型 Hy4 的网络攻击、生物滥用等风险，据报道是中国大厂首次披露发布前引入第三方评估。",
+        "source": "AI Gazz（引 SCMP）",
+        "url": "https://aigazz.com/all"
       },
       {
-        "title": "OpenAI推药物化学基准MedChemBench",
-        "summary": "99道题取自117篇论文与专利，GPT-6.2 Astra拿到84.5%分数；模型擅长还原分子结构，但选化合物和预测数值仍弱，OpenAI称不代表能发现新药。",
-        "source": "OpenAI",
-        "url": "https://openai.com/index/introducing-medchembench"
+        "title": "蚂蚁开源医疗多模态模型LingSante",
+        "summary": "inclusionAI 以 MIT 协议发布 1240 亿参数 MoE（激活 5.5B）的医疗图文模型，影像报告生成自测领先，医学知识题落后于美系模型。",
+        "source": "ORIENS",
+        "url": "https://ai-oriens.com/en/news/lingsante-3-1-air-vl/"
       },
       {
-        "title": "英伟达开源连续扩散语言模型Sigma",
-        "summary": "Nemotron-Labs-Sigma含3B/8B共14个checkpoint，在连续嵌入空间去噪生成文本；自推测解码版平均比自回归快3.46倍，数据均为英伟达自测。",
-        "source": "HIMIAO视界",
-        "url": "https://himiao.ai/news/2026-11-20-nvidia-nemotron-sigma"
+        "title": "美国多家银行收紧第三方AI代理条款",
+        "summary": "富国银行将在客户协议中注明使用 AI 代理风险自担，摩根大通、美国银行等也已调整条款，同时银行在自建 AI 工具。",
+        "source": "AI Gazz（引 WIRED）",
+        "url": "https://aigazz.com/all"
       },
       {
-        "title": "Unite Tokyo：Unity 7路线图公布",
-        "summary": "ECS for All让每个GameObject同时是Entity；Unity 6.7 LTS带来实验性Neural纹理压缩（显存降近30%）与无需烘焙的Surface Cache GI，新后端UGK光追下GPU性能提升超62%。",
-        "source": "Unity 官方博客",
-        "url": "https://unity.com/blog/unite-tokyo-2026-keynote-recap"
+        "title": "Unity神经纹理压缩省近30%显存",
+        "summary": "NTC 在 Atrio 项目中降低约 30% 纹理显存和包体，将在 Unity 6.7 LTS 实验推出；新图形后端 UGK 让光追场景 GPU 性能提升逾 62%。",
+        "source": "Renderu",
+        "url": "https://renderu.com/en/news/post/28929"
       },
       {
-        "title": "Unity设立Fellowship，每队给5万美元",
-        "summary": "每年资助10支临近上线的独立团队，提供5万美元现金与专家支持，不分成、不回收、IP归团队；同场宣布Synty Studios加入Unity。",
-        "source": "Unity 官方博客",
-        "url": "https://unity.com/blog/unite-tokyo-2026-keynote-recap"
+        "title": "Unity收购Synty，6万资产将入Spark",
+        "summary": "Unity 收购 POLYGON 美术包开发商 Synty Studios，其 6 万余件 3D 资产将通过 Unity Spark 封测提供，原商店与授权照常运营。",
+        "source": "PocketGamer.biz",
+        "url": "https://www.pocketgamer.biz/unity-acquires-synty-studios-to-bring-its-asset-library-to-unity-spark/"
       },
       {
-        "title": "《恐鬼症》11月24日迁移至Unity 6",
-        "summary": "Resonance免费更新将把游戏引擎升级到Unity 6，官方预期降低CPU/GPU/显存占用并修复内存泄漏，但性能提升尚待上线后验证。",
-        "source": "Tech Times",
-        "url": "https://www.techtimes.com/articles/331241/20261121/phasmophobia-resonance-update-moves-game-unity-6-november-24-performance-gains-unproven.htm"
+        "title": "Unity高管回应约250亿美元收购传闻",
+        "summary": "路透称 Unity 与 PIF/Silver Lake 财团接触；Unity 产品高级副总裁称强劲财报后出现传闻很常见。其第三季营收同比增 32% 至 6.22 亿美元。",
+        "source": "Game Developer",
+        "url": "https://www.gamedeveloper.com/business/-it-s-common-for-there-to-be-speculation-and-headlines-unity-exec-addresses-acquisition-rumors"
       }
     ]
   }
