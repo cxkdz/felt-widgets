@@ -37,43 +37,37 @@
   {
     "id": "news",
     "title": "热点资讯",
-    "updated": "2026-11-24T08:01:17+08:00",
+    "updated": "2026-11-25T08:03:13+08:00",
     "items": [
       {
-        "title": "智谱GLM-5.4发布：首个循环Transformer旗舰",
-        "summary": "GLM-5.4基于750B底座，将28层循环两次，称效果可比2T–3T参数模型，主打“泛化编程”，开放权重待安全加固后发布。",
-        "source": "Z.ai",
-        "url": "https://z.ai/blog/glm-5.4"
+        "title": "Sand.ai发布4800亿参数视频模型MAGI-2",
+        "summary": "MAGI-2采用多头潜在MoE，总参数480B、激活约28B，可原生生成30秒1080p音视频；在AA视频竞技场Elo比预览版高151.8分，并承诺后续开源。",
+        "source": "Sand.ai",
+        "url": "https://sand.ai/blog/magi-2/"
       },
       {
-        "title": "OpenAI推出ChatGPT专用版GPT-6.2 Sol",
-        "summary": "针对复杂指令与联网检索优化，向Plus、Pro、Business、Enterprise订阅用户逐步推送。",
-        "source": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1040716/openai-launched-a-chat-specific-version-of-gpt-6-2-sol"
+        "title": "小鹏发布WorldGPT：一个模型通用车、机器人、无人机",
+        "summary": "WorldGPT以云端教师模型学习六类机器的共享物理世界认知，再蒸馏到端侧小模型；官方称在驾驶、机器人、视觉理解等公开基准拿下12项第一。",
+        "source": "XPENG",
+        "url": "https://www.xpeng.com/news/01a20bcf44b3a1e838d68a02a2110153"
       },
       {
-        "title": "OpenAI首席科学家：用困惑度衡量AI进展",
-        "summary": "Pachocki提议以困惑度作为跨实验室的通用指标，并呼吁设立行业共同的开发上限与透明标准。",
-        "source": "OpenAI",
-        "url": "https://openai.com/index/perplexity-and-intelligence/"
+        "title": "商汤开源SenseNova U1.6，图像可自我纠错",
+        "summary": "8B开源模型首次具备原生图像自修正：先出图再对照提示检查并改正错字，UltraTextBench信息图得分由86.04升至92.28。",
+        "source": "商汤科技",
+        "url": "https://www.sensetime.com/cn/news/sensenova-u1-6-open-source-20261124-1152"
       },
       {
-        "title": "AI智能体从零设计全新CPU架构Frostbite",
-        "summary": "Architect Labs称其每瓦性能为传统顺序核的4.59倍，但仅为7nm仿真结果，尚未流片。",
-        "source": "Tom's Hardware",
-        "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-agents-design-an-entirely-new-cpu-architecture-from-scratch-startup-claims-frostbite-posts-4-59x-the-performance-per-watt-of-an-in-order-core-in-pre-silicon-tests"
+        "title": "Unity CLI接入Asset Store与60+AI生成器",
+        "summary": "Claude Code、Codex等编程智能体可通过Unity CLI搜索、按需下载单个预制体，或直接生成素材；两项功能均为公开测试版。",
+        "source": "Unity官方博客",
+        "url": "https://unity.com/blog/unity-asset-store-ai-generators-coding-agents"
       },
       {
-        "title": "Unity 7“ECS for All”：GameObject即Entity",
-        "summary": "Unity 7中每个GameObject同时也是实体，ECS变换即GameObject变换，可直接在GameObject上添加Entity数据，Inspector原生支持。",
-        "source": "Games in Progress（Unity官方视频）",
-        "url": "https://www.gamesinprogress.com/indie-game-developers/unity/introducing-ecs-for-all"
-      },
-      {
-        "title": "Unity谈AI“氛围编程”与托管基础设施的分界",
-        "summary": "Unity博客建议UI、原型、编辑器小工具可交给Unity CLI加AI生成，涉及安全、权限、专有CAD的底层仍应依赖托管平台。",
-        "source": "Unity Blog",
-        "url": "https://unity.com/blog/ai-vibe-coding-vs-buying-managed-infrastructure"
+        "title": "Unity 6.7/7 的URP画质升级路线图",
+        "summary": "Unite Tokyo展示URP新特性：Surface Cache GI、屏幕空间反射、体积雾、DLSS 4.5/FSR 4升频，以及新图形后端Unity Graphics Kernel。",
+        "source": "GameFromScratch",
+        "url": "https://gamefromscratch.com/unity-urp-graphics-improvements/"
       }
     ]
   }
