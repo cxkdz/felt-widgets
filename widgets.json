@@ -37,37 +37,49 @@
   {
     "id": "news",
     "title": "热点资讯",
-    "updated": "2026-11-25T08:03:13+08:00",
+    "updated": "2026-11-26T08:01:44+08:00",
     "items": [
       {
-        "title": "Sand.ai发布4800亿参数视频模型MAGI-2",
-        "summary": "MAGI-2采用多头潜在MoE，总参数480B、激活约28B，可原生生成30秒1080p音视频；在AA视频竞技场Elo比预览版高151.8分，并承诺后续开源。",
-        "source": "Sand.ai",
-        "url": "https://sand.ai/blog/magi-2/"
+        "title": "OpenAI：GPT-6 可直接设计蛋白质",
+        "summary": "OpenAI称GPT-6系列仅靠推理和代码就能设计蛋白结构与序列；与Onava的实验中，5个靶点均有设计显示结合迹象，但仍依赖专用模型筛选候选。",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
       },
       {
-        "title": "小鹏发布WorldGPT：一个模型通用车、机器人、无人机",
-        "summary": "WorldGPT以云端教师模型学习六类机器的共享物理世界认知，再蒸馏到端侧小模型；官方称在驾驶、机器人、视觉理解等公开基准拿下12项第一。",
-        "source": "XPENG",
-        "url": "https://www.xpeng.com/news/01a20bcf44b3a1e838d68a02a2110153"
+        "title": "DeepMind推出Humanity's First Exam",
+        "summary": "新基准含544道基础图文题，衡量模型能否每次都稳定答对简单问题，而非只解出一次难题；Kaggle竞赛持续至12月15日。",
+        "source": "Google DeepMind",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/"
       },
       {
-        "title": "商汤开源SenseNova U1.6，图像可自我纠错",
-        "summary": "8B开源模型首次具备原生图像自修正：先出图再对照提示检查并改正错字，UltraTextBench信息图得分由86.04升至92.28。",
-        "source": "商汤科技",
-        "url": "https://www.sensetime.com/cn/news/sensenova-u1-6-open-source-20261124-1152"
+        "title": "Cognition发布SWE-2.1编程模型",
+        "summary": "基于Kimi K3纯强化学习训练，FrontierCode 2.0得分41.3（SWE-2为24.1），网络安全能力大幅提升；另有Cerebras加速的10倍速版本。",
+        "source": "Cognition",
+        "url": "https://cognition.com/blog/swe-2-1"
       },
       {
-        "title": "Unity CLI接入Asset Store与60+AI生成器",
-        "summary": "Claude Code、Codex等编程智能体可通过Unity CLI搜索、按需下载单个预制体，或直接生成素材；两项功能均为公开测试版。",
-        "source": "Unity官方博客",
-        "url": "https://unity.com/blog/unity-asset-store-ai-generators-coding-agents"
+        "title": "Sakana发布300亿参数Namazu Small",
+        "summary": "基于Nemotron 3 Nano继续预训练与后训练，25项基准平均分超过约4倍规模的Nemotron 3 Super，BrowseComp达73.5，但知识问答较弱。",
+        "source": "Sakana AI",
+        "url": "https://sakana.ai/namazu-small/"
       },
       {
-        "title": "Unity 6.7/7 的URP画质升级路线图",
-        "summary": "Unite Tokyo展示URP新特性：Surface Cache GI、屏幕空间反射、体积雾、DLSS 4.5/FSR 4升频，以及新图形后端Unity Graphics Kernel。",
-        "source": "GameFromScratch",
-        "url": "https://gamefromscratch.com/unity-urp-graphics-improvements/"
+        "title": "JetBrains开源Mellum2.1 Instruct",
+        "summary": "12B MoE（激活2.5B）编码代理模型，不输出思维链，token用量约为Thinking版的一半，Apache 2.0协议开放。",
+        "source": "JetBrains Blog",
+        "url": "https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents/"
+      },
+      {
+        "title": "Unity发布免费示例项目Atrio",
+        "summary": "展示URP实时渲染（无烘焙GI、SSR、GTAO、AgX）及Building Blocks预览组件，需Unity 6.7 beta，资源可自由商用，已上架Asset Store与GitHub。",
+        "source": "Unity Discussions",
+        "url": "https://discussions.unity.com/t/atrio-is-here-a-new-sample-project-announced-during-unite-tokyo-2026/1742672"
+      },
+      {
+        "title": "Owlchemy解析XR游戏Hyper Visor技术",
+        "summary": "用多物理场景分隔玩家、玩法与暂停世界，各世界独立时钟；关卡用文本脚本加Prefab热重载，免去40秒重编译。",
+        "source": "Unity Blog",
+        "url": "https://unity.com/blog/hyper-visor-xreal-aura-physics-scenes"
       }
     ]
   }
