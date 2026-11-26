@@ -1,18 +1,17 @@
 [
   {
     "id": "hark-unity",
-    "title": "Unity · BFS 专题",
-    "value": "2/3 天",
-    "sub": "多源、状态、反向 BFS",
+    "title": "Unity · 实战任务",
+    "value": "2/20",
+    "sub": "第三人称相机跟随",
     "items": [
-      "1091 最短通路",
-      "752 转盘锁",
-      "1162 最远海域",
-      "909 蛇梯棋",
-      "417 双海洋水流"
+      "LateUpdate + SmoothDamp 平滑跟随",
+      "鼠标环绕，俯仰 -30°~70°",
+      "WASD 按相机朝向移动",
+      "鼠标锁定隐藏，Esc 解锁"
     ],
     "link": "https://leetcode.cn/problems/pacific-atlantic-water-flow/",
-    "updated": "2026-11-23T00:24:22+08:00"
+    "updated": "2026-11-26T20:16:00+08:00"
   },
   {
     "id": "test",
@@ -23,16 +22,14 @@
   {
     "id": "hark-today",
     "title": "今日任务",
-    "value": "完成 BFS 第 1 天",
+    "value": "实战任务 2",
     "sub": "做完 5 题再切到第 2 天变体题",
     "items": [
-      "复习 LC1926 迷宫最近出口并自己重写一遍",
-      "完成 LC1020 飞地的数量",
-      "重启桌面软件，确认显示「连接测试：已连接」",
-      "四级备考 30–60 分钟（笔试 12 月 12 日）",
-      "确认 Game Off 是否报名（12 月 2 日截止）"
+      "写 ThirdPersonCamera 脚本",
+      "改 PlayerController 按相机方向走",
+      "30/120 帧下测试转视角手感"
     ],
-    "updated": "2026-11-21T15:30:00+08:00"
+    "updated": "2026-11-26T20:16:00+08:00"
   },
   {
     "id": "news",
