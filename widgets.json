@@ -1,77 +1,77 @@
 [
-  {
-    "id": "hark-unity",
-    "title": "Unity · 实战任务",
-    "value": "2/20",
-    "sub": "第三人称相机跟随",
-    "items": [
-      "LateUpdate + SmoothDamp 平滑跟随",
-      "鼠标环绕，俯仰 -30°~70°",
-      "WASD 按相机朝向移动",
-      "鼠标锁定隐藏，Esc 解锁"
-    ],
-    "link": "https://leetcode.cn/problems/pacific-atlantic-water-flow/",
-    "updated": "2026-11-27T08:01:45+08:00"
-  },
-  {
-    "id": "test",
-    "title": "连接测试",
-    "value": "已连接",
-    "updated": "2026-11-20T22:27:00+08:00"
-  },
-  {
-    "id": "hark-today",
-    "title": "今日任务",
-    "value": "实战任务 2",
-    "sub": "做完 5 题再切到第 2 天变体题",
-    "items": [
-      "写 ThirdPersonCamera 脚本",
-      "改 PlayerController 按相机方向走",
-      "30/120 帧下测试转视角手感"
-    ],
-    "updated": "2026-11-27T08:01:45+08:00"
-  },
-  {
-    "id": "news",
-    "title": "热点资讯",
-    "updated": "2026-11-27T08:01:45+08:00",
-    "items": [
-      {
-        "title": "Anthropic用Claude把API迁到Rust",
-        "summary": "Anthropic称借Claude智能体与生产流量对照验证，将Messages API从Python重写为Rust，单请求CPU降约70%，首token中位延迟降约20%。",
-        "source": "Anthropic",
-        "url": "https://www.anthropic.com/research/migrating-api-to-rust"
-      },
-      {
-        "title": "FCC批准SpaceX百万颗AI算力卫星",
-        "summary": "FCC授权SpaceX部署最多100万颗Starmind轨道数据中心卫星，首颗需在2033年11月前上轨，2040年前完成；环评与处置豁免未获通过。",
-        "source": "Gizmodo",
-        "url": "https://gizmodo.com/feds-approve-spacexs-ai-data-center-satellites-all-1-million-of-them-2000845526"
-      },
-      {
-        "title": "蚂蚁开源多模态模型Ling-3.2-air",
-        "summary": "总参数1240亿、激活55亿，MIT协议开放权重，面向办公与工具调用智能体；自测任务完成率由15.7%升至61%。",
-        "source": "TechNode",
-        "url": "https://technode.com/2026/11/25/ant-releases-ling-3-2-air-multimodal-model-under-mit-license/"
-      },
-      {
-        "title": "DeepL发布语音翻译模型Aure v2",
-        "summary": "端到端语音到语音架构并用强化学习，中位延迟比前代降50%，内部测试英日错误比Gemini 3.5 Live Translate少32%。",
-        "source": "PR Newswire",
-        "url": "https://www.prnewswire.com/news-releases/deepl-introduces-aure-v2-its-fastest-voice-ai-translation-model-302950629.html"
-      },
-      {
-        "title": "Unity CLI接入Asset Store与AI生成器",
-        "summary": "编程智能体可经Unity CLI搜索、按单个预制体下载资源，或调用60+模型生成素材；目前为公开测试版。",
-        "source": "Unity Blog",
-        "url": "https://unity.com/blog/unity-asset-store-ai-generators-coding-agents"
-      },
-      {
-        "title": "Unity 6.7 LTS与Unity 7路线图解读",
-        "summary": "6.7 LTS主打2D与UI Toolkit；CoreCLR、ECS for All、热重载等大改动留给预计2027年Q1发布的Unity 7。",
-        "source": "Indie Tooling",
-        "url": "https://indietooling.com/posts/unity-6-7-lts-unity-7-roadmap"
-      }
-    ]
-  }
+ {
+  "id": "hark-unity",
+  "title": "Unity · 实战任务",
+  "value": "2/20",
+  "sub": "第三人称相机跟随",
+  "items": [
+   "相机平滑跟随无抖动",
+   "鼠标环绕一整圈",
+   "俯仰角限制-30°~70°",
+   "WASD按相机朝向移动"
+  ],
+  "link": "https://leetcode.cn/problems/pacific-atlantic-water-flow/",
+  "updated": "2026-11-28T07:59:26+08:00"
+ },
+ {
+  "id": "test",
+  "title": "连接测试",
+  "value": "已连接",
+  "updated": "2026-11-20T22:27:00+08:00"
+ },
+ {
+  "id": "hark-today",
+  "title": "今日任务",
+  "value": "实战任务 2",
+  "sub": "做完 5 题再切到第 2 天变体题",
+  "items": [
+   "LateUpdate平滑跟随相机",
+   "Clamp限制俯仰角",
+   "WASD按相机方向移动"
+  ],
+  "updated": "2026-11-28T07:59:26+08:00"
+ },
+ {
+  "id": "news",
+  "title": "热点资讯",
+  "updated": "2026-11-28T07:59:26+08:00",
+  "items": [
+   {
+    "title": "OpenAI发布GPT-6.1 Terra",
+    "summary": "中档模型GPT-6.1 Terra上线ChatGPT Work、Codex与API，价格为每百万token输入1美元、输出5美元，称速度比Sol/Astra快3倍以上。",
+    "source": "FeaturedDaily",
+    "url": "https://featureddaily.com/news/openai-launches-gpt-6-1-terra-a-faster-cheaper-medium-sized-model"
+   },
+   {
+    "title": "Sber开源GigaChat 4 708B模型",
+    "summary": "708B总参数、41B激活的MoE模型，上下文100万token，MIT许可；但成绩均为官方自测，DeepSWE仅35.4%，尚无独立评测。",
+    "source": "Tech Times",
+    "url": "https://www.techtimes.com/articles/331654/20261127/sber-releases-gigachat-4-1m-token-window-lists-35-coding-test-where-deepseek-gets-74.htm"
+   },
+   {
+    "title": "腾讯发布3D生成模型Hy3D 3.6",
+    "summary": "几何细节与PBR材质提升，适合角色、生物、服装和复杂道具；已接入腾讯云TokenHub API及LAP游戏资产平台。",
+    "source": "TechNode",
+    "url": "https://technode.com/2026/11/27/tencent-launches-hy3d-3-6-for-professional-3d-asset-generation/"
+   },
+   {
+    "title": "Sand AI开源1140亿参数音视频模型",
+    "summary": "MAGI-2 Preview为MoE架构，每token仅激活约6B，可生成带音频的10秒视频，Apache 2.0许可，但需8张Hopper GPU。",
+    "source": "explainx.ai",
+    "url": "https://explainx.ai/blog/sand-ai-magi-2-preview-114b-open-weight-audio-video-moe-apache-2-2026"
+   },
+   {
+    "title": "Unity 6000.6.11f1发布",
+    "summary": "改善大场景下Hierarchy响应，新增Update Time Budget设置，修复DX12 GPU挂起与多处崩溃，并列出已知问题。",
+    "source": "GameBusiness.jp",
+    "url": "https://www.gamebusiness.jp/article/2026/11/27/28888.html"
+   },
+   {
+    "title": "Unity免费发布Atrio示例项目",
+    "summary": "基于Unity 6.7 URP，全程无烘焙光照（表面缓存GI、SSR、GTAO、AgX），含Building Blocks预览，素材可自由商用。",
+    "source": "Unity Discussions",
+    "url": "https://discussions.unity.com/t/atrio-is-here-a-new-sample-project-announced-during-unite-tokyo-2026/1742672"
+   }
+  ]
+ }
 ]
